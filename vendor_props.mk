@@ -166,6 +166,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1
 
+# Settings provider
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fflag.override.settings_provider_model=false
+
 # SOC
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Qualcomm \
