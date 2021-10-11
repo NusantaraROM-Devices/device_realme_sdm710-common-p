@@ -75,6 +75,9 @@ ro.netflix.bsp_rev=Q670-14477
 # Network manager
 ro.telephony.iwlan_operation_mode=legacy
 
+# One handed mode
+ro.support_one_handed_mode=true
+
 # Perf
 iop.enable_prefetch_ofr=1
 iop.enable_uxe=0
