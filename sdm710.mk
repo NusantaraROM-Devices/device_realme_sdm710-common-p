@@ -16,6 +16,9 @@ $(call inherit-product, external/json-c/Android.configure.mk)
 PRODUCT_PACKAGES += \
     libjson
 
+# HIDL 
+$(call inherit-product, $(LOCAL_PATH)/sdm710-hidl.mk)
+
 # Set dalvik vm config
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
