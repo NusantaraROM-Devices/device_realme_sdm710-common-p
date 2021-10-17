@@ -260,6 +260,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeHub
 
+# Face
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.face@1.0
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710
