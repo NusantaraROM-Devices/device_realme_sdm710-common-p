@@ -171,6 +171,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Qualcomm \
     ro.soc.model=SDM710
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.aware.interface=wifi-aware0
