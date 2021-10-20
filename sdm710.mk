@@ -11,6 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/realme/sdm710-common/sdm710-common-vendor.mk)
 
+# json-c
+$(call inherit-product, external/json-c/Android.configure.mk)
+PRODUCT_PACKAGES += \
+    libjson
+
 # Set dalvik vm config
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
