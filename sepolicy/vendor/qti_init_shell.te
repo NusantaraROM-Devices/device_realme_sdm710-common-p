@@ -3,6 +3,7 @@ allow qti_init_shell configfs:file { create };
 allow qti_init_shell configfs:lnk_file create;
 allow qti_init_shell ctl_stop_prop:property_service { set };
 allow qti_init_shell proc_devinfo:dir{ getattr open read search };
+allow qti_init_shell vendor_camera_data_file:dir { getattr open read add_name create write };
 
 dontaudit qti_init_shell self:capability dac_override;
 dontaudit qti_init_shell qti_init_shell:capability { dac_read_search };
