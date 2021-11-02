@@ -103,7 +103,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
     ro.hardware.vulkan=adreno \
-    ro.hardware.egl=adreno
+    ro.hardware.egl=adreno \
+    sys.use_fifo_ui=1
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.use_phase_offsets_as_durations=1 \
