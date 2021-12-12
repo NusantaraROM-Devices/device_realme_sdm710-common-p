@@ -246,6 +246,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0 \
     libdisplayconfig.qti \
     vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
     libgui_vendor \
     libminijail \
     libavservices_minijail
