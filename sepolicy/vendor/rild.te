@@ -15,3 +15,4 @@ get_prop(rild, oppo_debug_prop);
 r_dir_file(rild, proc_devinfo);
 
 set_prop(rild, oppo_debug_prop);
+allow rild diag_device:chr_file { read write open };
