@@ -51,7 +51,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
 TARGET_COMPILE_WITH_MSM_KERNEL  := true
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_PATH := $(PWD)/prebuilts/clang/host/linux-x86/gabuters-clang
+#TARGET_KERNEL_CLANG_PATH := $(PWD)/prebuilts/clang/host/linux-x86/gabuters-clang
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
