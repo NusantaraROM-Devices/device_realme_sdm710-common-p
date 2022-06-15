@@ -196,10 +196,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
 
-# USB
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.usb.config.extra=adb
-
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.aware.interface=wifi-aware0
@@ -213,7 +209,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
-
-# USB
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.usb.config.extra=adb
