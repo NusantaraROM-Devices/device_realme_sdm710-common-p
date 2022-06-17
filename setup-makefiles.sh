@@ -7,6 +7,8 @@
 #
  
 set -e
+export DEVICE_COMMON=sdm710-common
+export VENDOR=realme
  
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -25,7 +27,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
  
 # Warning headers and guards
-write_headers "RMX1901 RMX1921 RMX1971 RMX1851"
+write_headers "sdm710-common"
  
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
