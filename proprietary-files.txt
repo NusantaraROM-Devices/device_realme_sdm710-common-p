@@ -128,6 +128,24 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 system_ext/lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
 system_ext/lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
 
+# Camera Firmware Dump
+vendor/etc/data/camera/aecWarmStartCamera_0.txt
+vendor/etc/data/camera/aecWarmStartCamera_1.txt
+vendor/etc/data/camera/aecWarmStartCamera_2.txt
+vendor/etc/data/camera/aecWarmStartCamera_3.txt
+vendor/etc/data/camera/af_calibration_s5kgw1_p24c128e_sunny.bin
+vendor/etc/data/camera/awbWarmStartCamera_0.txt
+vendor/etc/data/camera/awbWarmStartCamera_1.txt
+vendor/etc/data/camera/awbWarmStartCamera_2.txt
+vendor/etc/data/camera/awbWarmStartCamera_3.txt
+vendor/etc/data/camera/mapx.bin
+vendor/etc/data/camera/mapy.bin
+vendor/etc/data/camera/pdaf2D_calibration_s5kgw1_p24c128e_sunny.bin
+vendor/etc/data/camera/pdafdcc_calibration_s5kgw1_p24c128e_sunny.bin
+vendor/etc/data/camera/sony_imx471_cross_talk.bin
+vendor/etc/data/camera/sony_imx471_dpc_tbl.bin
+vendor/etc/data/camera/spc_calibration_s5kgw1_p24c128e_sunny.bin
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/lib/libcdsp_default_listener.so
